@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../image/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+    color: white;
+}
+h1,h2,h3,h4,h5,p {margin: 10px 0px;}
+h2{color:black;}
+#login {
+    width: 300px;
+    background: black;
+    padding: 0px px;
+    position: absolute;
+}
+    
+
+#login input {
+    width: 70%;
+    padding: 5px  0px;
+}
+
+#facebook h5 {
+    width: 70%;
+    background: blue;
+    color: cornsilk;
+}

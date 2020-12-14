@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+    font-size: 15px;
+
+}
+
+img {
+    width: 100%;
+}
+
+.size {
+    width: 90%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: arial black;
+}
+
+#logo {
+    width: 9%;
+    float: left;
+}
+
+#mainNEV {
+    width: 100%;
+    border-bottom: 4px solid orange;
+    border-top: 2px solid orange;
+    display: table;
+    background: #ff990057;
+}
+
+#manuCONT {
+    display: block;
+    width: 48%;
+    float: right;
+
+}
+
+#pmenu {
+    list-style: none;
+
+}
+
+#pmenu li {
+    float: left;
+    position: relative;
+}
+
+#pmenu li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 23px 30px;
+    display: block;
+}
+
+#pmenu li a:hover {
+    background: orange;
+}
+
+#subMENU {
+    list-style: none;
+    background: rgba(236, 92, 48, 0.356);
+    width: 269px;
+    position: absolute;
+    top: 68px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.7s;
+}
+
+#subMENU li {
+    float: none;
+}
+
+#subMENU li a {
+    color: rgb(255, 252, 251);
+    transition: 0.7s;
+}
+
+#pmenu li:hover #subMENU {
+    transform: scaleY(1);
+
+}
+
+#subMENU li:hover a {
+    color: black;
+    padding-left: 80px;
+}
+
+/*   HEADER  section end   */
+
+
+/*   software  section start   */
+#software {
+    background: #161414d9;
+    overflow: hidden;
+    padding-bottom: 5px;
+    color: white;
+}
+
+#software_skill {
+    overflow: hidden;
+    display: block;
+}
+
+#software_title {
+    text-align: center;
+}
+
+#software_title h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 18px;
+    padding: 0px 20px;
+}
+
+#software_skill h1 span {
+    color: orange;
+}
+
+#software_title h1:hover {
+    text-decoration: underline;
+}
+
+#software_SUB_text {
+    text-align: justify ;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 36px;
+    font-family: system-ui;
+}
+/*   software  section end   */
+
+
+
+/*   skill  section start   */
+#SKILL {
+    background: #5d5656d9;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+#sub_skill {
+    overflow: hidden;
+    display: block;
+}
+
+#skill_title {
+    text-align: center;
+}
+
+#skill_title h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 18px;
+    padding: 0px 20px;
+}
+
+#sub_skill h1 span {
+    color: orange;
+}
+
+#skill_title h1:hover {
+    text-decoration: underline;
+}
+#three_skill{
+    overflow: hidden;
+    display: inline-flex;
+}
+.sub_HC {
+    width: 25%;
+    height: 280px;
+    margin: auto;
+    background: #e4d6d6d9;
+    overflow: hidden;
+    padding: 0px 30px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#skill_SUB_title {
+    text-align: center;
+}
+
+#skill_SUB_title h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+#skill_SUB_title h3:hover {
+    color: orange;
+}
+
+#skill_SUB_text {
+    width: 40%;
+    float: left;
+    margin: auto;
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+
+#skill_SUB_img {
+    width: 50%;
+    overflow: hidden;
+    float: right;
+    border: 2px solid rgb(252, 227, 8);
+}
+
+#skill_SUB_img:hover {
+    transform: scaleX(1.1);
+
+}
+
+/*  SKILL  sec  END  */
+
+
+/*   Extra  section start   */
+#extra {
+    background: #161414d9;
+    overflow: hidden;
+    padding-bottom: 5px;
+    color: white;
+
+}
+
+#extra_skill {
+    overflow: hidden;
+    display: block;
+}
+
+#extra_title {
+    text-align: center;
+}
+
+#extra_title h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 18px;
+    padding: 0px 20px;
+}
+
+#extra_skill h1 span {
+    color: orange;
+}
+
+#extra_title h1:hover {
+    text-decoration: underline;
+}
+
+#extra_SUB_text {
+    text-align: justify ;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 36px;
+    font-family: system-ui;
+}
+/*   Extra  section end   */
+
+
+
+/*  Bottom sec  start  */
+#bottom {
+    background: black;
+}
+
+#copy {
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    padding: 5px;
+}

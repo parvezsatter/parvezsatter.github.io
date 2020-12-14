@@ -1,1 +1,0 @@
-# parvezsatter.github.io

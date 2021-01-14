@@ -37,6 +37,7 @@ h5 {
     border-top: 2px solid orange;
     display: table;
     background: #ff990057;
+    font-size: 14px;
 }
 
 #manuCONT {
@@ -140,6 +141,7 @@ h5 {
     margin: auto;
     margin-bottom: 36px;
     font-family: system-ui;
+    line-height: 30px;
 }
 /*   software  section end   */
 
@@ -272,6 +274,7 @@ h5 {
     margin: auto;
     margin-bottom: 36px;
     font-family: system-ui;
+    line-height: 32px;
 }
 /*   Extra  section end   */
 
